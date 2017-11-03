@@ -20,8 +20,8 @@ About Dataset:
 This dataset was first used in Masoud Fatemi and Mehran Safayani,
 ``Extending of Restricted Boltzman Machine for Joint Sentiment/Topic Modeling on Text Data'',
 
- @InProceedings{....,
-  author = {Masoud Fatemi and Mehran Safayani},
+ @InProceedings{joint-senttopic2017,
+  author = {M. Fatemi and M. Safayani},
   title =  {Extending of Restricted Boltzman Machine for Joint Sentiment/Topic Modeling on Text Data},
   year =   2017      
 }
