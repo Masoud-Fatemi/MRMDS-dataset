@@ -31,4 +31,12 @@ This dataset was first used in Masoud Fatemi and Mehran Safayani,
 
  Data Format Summary:
 
-MRMDS-dataset: contains this readme and three other files (train, test, vocab) which created and used by Fatemi/Safayani in described paper.
+MRMDS-dataset: contains this readme and three other data files (train, test, vocab) which created and used by Fatemi/Safayani in described paper. 
+Each line in the "train" or "test" files correspond to a document and organized as follow:
+
+<sentiment_label> <topic_label< <id:count> <id:count> <id:count> <id:count> ...
+
+sentiment_label: specifies sentiment polarity of a document. sentimen_label could be "1" or "2". "1" represents positive sentiment label and "2" shows negative setinemt label for current document.
+topic_label: specifies the topic of a document. topic_label is an integer between 1 to 5 (book=1, dvd=2, electronics=3, kitchen=4, movie=5).
+id: represents a word index in the "vocab" file.
+count: shows the number of a specific word which identifies by "id" in the document.
